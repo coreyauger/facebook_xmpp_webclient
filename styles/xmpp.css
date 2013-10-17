@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+#friends{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 );
+    background: linear-gradient(top, rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%);
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#friends li{
+    list-style: none;
+}
+#chat li{
+    list-style: none;
+}
+#chat li button{
+    text-align: left;
+}
+
+#login,
+#log{
+    margin-left: 300px;
+    overflow: auto;
+}
+#log{
+    background-color: white;
+}
